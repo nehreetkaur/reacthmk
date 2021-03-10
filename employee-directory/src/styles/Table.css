@@ -1,0 +1,15 @@
+
+.table{
+   width:100%;
+    background:lightgrey;
+    text-align: justify;
+}
+
+
+.table img{
+    border-radius: 40%;
+}
+
+ /* .table th:nth-child(1){
+    background:red;
+}  */
