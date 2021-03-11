@@ -6,24 +6,74 @@ import SearchBar from "./components/SearchBar";
 import API from "./utils/api.js";
 
 class App extends React.Component {
-    state = {
-        results:[],
-        search: ""
-    }
+  state = {
+    results: [],               //   hold filter results
+    search: "",
+    
+    allResults:[]                //  for read only.
+  }
 
-    componentDidMount() {
-      console.log("testing");
-        API.ApiSearch().then(res => {
-            this.setState({ results: res.data.results })
-            //console.log(this.state.results)
-            console.log(res.data.results);
-        }).catch(err => console.log(err))
-    }
-    render(){
-        return <>
-         <div className="container">
-        <Header />     
-        <SearchBar/>
+  componentDidMount() {
+    console.log("testing");
+    API.ApiSearch().then(res => {
+      this.setState({ results: res.data.results ,allResults:res.data.results})
+      //console.log(this.state.results)
+      console.log(res.data.results);
+    }).catch(err => console.log(err))
+  }
+
+
+
+
+// for input in searchbar
+handleInputChange=event=>{
+  //  if(event.target==="search"){
+    let searchResult=event.target.value.toLowerCase();
+    console.log(searchResult);
+    
+
+   let newEmployees =this.state.allResults.filter(person=>`${person.name.first.toLowerCase()} ${person.name.last.toLowerCase()}`.includes(searchResult))
+   
+if (!searchResult){
+  this.setState({
+    search:searchResult,
+
+    results:this.state.allResults
+    
+  })
+
+}
+else{
+  this.setState({
+    search:searchResult,
+
+    results:newEmployees
+    
+  })
+
+}
+
+
+
+  }
+
+
+
+// sort by firstname
+// sortName=()=>{
+//   const finalSorted=this.state.results.sort()=>{
+
+//   }
+// }
+
+
+
+// render function.
+  render() {
+    return <>
+      <div className="container">
+        <Header />
+        <SearchBar handleInputChange={this.handleInputChange}/>
         <div className="table-responsive">
           <table className="table">
             
@@ -34,33 +84,36 @@ class App extends React.Component {
               <th>Email</th>
               <th>Phone</th>
             </tr>
-          
-          
+
            
 
-        {this.state.results.map(person=>{
-          return <tbody key={person.email}>  
-          <tr>
-            <td><img src={person.picture.thumbnail} className ="rounded-circle" alt="thumbnail"></img></td>
-            <td>{person.name.first}</td>
-            
-            <td>{person.name.last}</td>
-            <td>{person.email}</td>
-            <td>{person.phone}</td>
-            </tr>  
-          
-            </tbody> 
-                         
-        })}
-          
+
+            {this.state.results.map(person => {
+              return <tbody key={person.email}>
+                <tr>
+                  <td><img src={person.picture.thumbnail} className="rounded-circle" alt="thumbnail"></img></td>
+                  <td>{person.name.first}</td>
+
+                  <td>{person.name.last}</td>
+                  <td>{person.email}</td>
+                  <td>{person.phone}</td>
+                </tr>
+
+              </tbody>
+
+            })}
+
           </table>
-        
-      </div>
-     
+
         </div>
-        
-        </>;
-    }
+
+
+      </div>
+
+
+
+    </>;
+  }
 }
 
 
