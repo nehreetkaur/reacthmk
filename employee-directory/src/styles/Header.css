@@ -1,5 +1,5 @@
 .header{
-    background-color:skyblue;
+    background-color:aliceblue;
     
     margin: 0%;
     height:200px;
@@ -10,8 +10,9 @@
 }
 
 .header h1{
-    color:white;
+    color:pink;
     text-align: center;
+    font-weight: bold;
 
 
 
@@ -23,5 +24,6 @@
     font-size:large;
     font-weight: bold;
     font-style: italic;
-    color:white ;
+    color:pink ;
+    font-size:large;
 } 

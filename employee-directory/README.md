@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# ABOUT 
+This is a **React-Application** in which user can see person **image** ,**first-name Last-name** ,**email-id** ,**phone-num**and getting all this data from the **API Random-users**. User can easily **Search** the name and will see the **Searched-name** from the data , can see on the page. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# TABLE OF CONTENTS
+[ DESCRIPTION](#DESCRIPTION)
 
-In the project directory, you can run:
+[INSTALLATION](#INSTALLATION)
 
-### `npm start`
+[TEXT-EDITOR](#TEXT-EDITOR)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[PROGRAMMING-LANGUAGE](#PROGRAMMING-LANGUAGE)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[RESOURCES-REFERRED](#RESOURCES-REFERRED)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[GIT_HUB-REPOSITORY](#GIT_HUB-REPOSITORY)
 
-### `npm run build`
+[ HEROKU-LINK](#HEROKU-LINK) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# DESCRIPTION
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In this application , user can run the application with **npm start** on the terminal and in the browser presented with random person data with their image,name(first and last), email and phone-num. User can search any person with their name. Data is represented in table format for better visual experience.Icons is also added from the react icons as well.
 
-### Code Splitting
+# INSTALLATION
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**npx create-react-app<appname>**
 
-### Analyzing the Bundle Size
+**npm install axios**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**npm install react-icons --save**
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## TEXT-EDITOR
+**Vs-code**
 
-### `npm run build` fails to minify
+## PROGRAMMING-LANGUAGE
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+CSS
+
+JAVASCRIPT
+
+JSX
+
+# RESOURCES-REFERRED
+[REACt-COMPONENTS](https://www.studytonight.com/post/reactjs-components-stateless-functional-and-stateful-class-components)
+
+[RANDOM-USER-API](https://randomuser.me/api/?results=10&nat=us)
+[REACT-ICONS](https://react-icons.github.io/react-icons/)
+
+
+
+# GIT_HUB-REPOSITORY
+[GIT-HUB](https://github.com/nehreetkaur/reacthmk/tree/main/employee-directory)
+
+# HEROKU-LINK
+[HEROKU-LINK]()
+

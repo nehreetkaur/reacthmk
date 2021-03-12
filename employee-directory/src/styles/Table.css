@@ -10,8 +10,12 @@
     border-radius: 40%;
 }
 
+tr:nth-child(1n){
+    background: antiquewhite;
+}
+
 tr:nth-child(2n) {
-    background-color: lightgrey;
+    background-color:rgb(255, 192, 224);
 }
 
  /* .table th:nth-child(1){
