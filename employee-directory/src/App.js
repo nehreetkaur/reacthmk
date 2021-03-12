@@ -76,21 +76,21 @@ else{
         <SearchBar handleInputChange={this.handleInputChange}/>
         <div className="table-responsive">
           <table className="table">
+            <thead>
             
-            <tr>
               <th>Image</th>
               <th>FirstNmae</th>
               <th>LastName</th>
               <th>Email</th>
               <th>Phone</th>
-            </tr>
-
+        
+            </thead>
            
 
 
             {this.state.results.map(person => {
-              return <tbody key={person.email}>
-                <tr>
+              return <tr key={person.email}>
+            
                   <td><img src={person.picture.thumbnail} className="rounded-circle" alt="thumbnail"></img></td>
                   <td>{person.name.first}</td>
 
@@ -99,7 +99,7 @@ else{
                   <td>{person.phone}</td>
                 </tr>
 
-              </tbody>
+           
 
             })}
 

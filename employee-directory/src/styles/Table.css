@@ -1,13 +1,17 @@
 
 .table{
    width:100%;
-    background:lightgrey;
+    
     text-align: justify;
 }
 
 
 .table img{
     border-radius: 40%;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgrey;
 }
 
  /* .table th:nth-child(1){
