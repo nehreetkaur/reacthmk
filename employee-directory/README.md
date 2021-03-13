@@ -13,6 +13,8 @@ This is a **React-Application** in which user can see person **image** ,**first-
 
 [RESOURCES-REFERRED](#RESOURCES-REFERRED)
 
+[GIF-DEMO](#GIF-DEMO)
+
 
 [GIT_HUB-REPOSITORY](#GIT_HUB-REPOSITORY)
 
@@ -69,3 +71,7 @@ JSX
 # HEROKU-LINK
 [HEROKU-LINK]()
 
+
+
+## GIF-DEMO
+![GIF-DEMO](employee-directory/demo/demo.gif)

@@ -10,7 +10,7 @@ function Header() {
           
           <h1> <FaUserFriends/> Employee Directory!</h1>
             
-            <p className="pheader">Sort the employess by their First Name</p>
+            <p className="pheader">Sort the employess by their First Name and Last Name</p>
             
                                      
             
