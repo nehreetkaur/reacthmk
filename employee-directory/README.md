@@ -74,4 +74,4 @@ JSX
 
 
 ## GIF-DEMO
-![GIF-DEMO](employee-directory/demo/demo.gif)
+![GIF-DEMO](./demo/demo.gif)
