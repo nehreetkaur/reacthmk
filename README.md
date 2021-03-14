@@ -58,7 +58,7 @@ JAVASCRIPT
 JSX
 
 # RESOURCES-REFERRED
-[REACt-COMPONENTS](https://www.studytonight.com/post/reactjs-components-stateless-functional-and-stateful-class-components)
+[REACT-COMPONENTS](https://www.studytonight.com/post/reactjs-components-stateless-functional-and-stateful-class-components)
 
 [RANDOM-USER-API](https://randomuser.me/api/?results=10&nat=us)
 [REACT-ICONS](https://react-icons.github.io/react-icons/)
@@ -66,10 +66,10 @@ JSX
 
 
 # GIT_HUB-REPOSITORY
-[GIT-HUB](https://github.com/nehreetkaur/reacthmk/tree/main/employee-directory)
+[GIT-HUB](https://github.com/nehreetkaur/reacthmk)
 
 # HEROKU-LINK
-[HEROKU-LINK]()
+[HEROKU-LINK](https://employee-directory-nehreet.herokuapp.com/)
 
 
 

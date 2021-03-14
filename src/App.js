@@ -91,7 +91,7 @@ else{
             {this.state.results.map(person => {
               return <tr key={person.email}>
             
-                  <td><img src={person.picture.thumbnail} className="rounded-circle" alt="thumbnail"></img></td>
+                  <td><img src={person.picture.thumbnail} className="circle" alt="thumbnail"></img></td>
                   <td>{person.name.first}</td>
 
                   <td>{person.name.last}</td>
