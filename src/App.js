@@ -9,6 +9,7 @@ class App extends React.Component {
   state = {
     results: [],               //   hold filter results
     search: "",
+    sortAction:"ASC",
     
     allResults:[]                //  for read only.
   }
@@ -65,6 +66,29 @@ else{
 
 //   }
 // }
+sortName=()=>{
+  const sortedEmp=this.state.results.sort((a,b)=>{
+    if(a.name.first < b.name.first){
+      return -1;
+    }
+    if (a.name.first > b.name.first){
+      return 1
+    }
+    
+      return 0
+    
+  });
+  if(!this.stateAction){
+    this.setState({sortAction:this.state.allResults})
+  }
+  else{
+    this.setState({results:sortedEmp})
+  }
+} 
+
+
+
+
 
 
 
@@ -74,6 +98,7 @@ else{
       <div className="container">
         <Header />
         <SearchBar handleInputChange={this.handleInputChange}/>
+        <button className="btn"onClick={this.sortName}>ASC-ORDER</button>
         <div className="table-responsive">
           <table className="table">
             <thead>

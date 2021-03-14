@@ -31,7 +31,7 @@ This is a **React-Application** in which user can see person **image** ,**first-
 
 # DESCRIPTION
 
-In this application , user can run the application with **npm start** on the terminal and in the browser presented with random person data with their image,name(first and last), email and phone-num. User can search any person with their name. Data is represented in table format for better visual experience.Icons is also added from the react icons as well.
+In this application , user can run the application with **npm start** on the terminal and in the browser presented with random person data with their image,name(first and last), email and phone-num. User can search any person with their name. Data is represented in table format for better visual experience.Icons is also added from the react icons as well.There is also button added **ASC-ORDER** to sort the name of employess by their **first-Name**.
 
 # INSTALLATION
 

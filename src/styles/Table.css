@@ -21,3 +21,13 @@ tr:nth-child(2n) {
  /* .table th:nth-child(1){
     background:red;
 }  */
+
+.btn{
+    margin-left: 70%;
+    border-radius: 15%;
+    border:3px solid pink;
+    width:10%;
+    background-color:aliceblue;
+    font-weight: bold;
+    
+}
